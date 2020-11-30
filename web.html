@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>PISACHI</title>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="1style.css">
+    <link rel="stylesheet" href="grid-guide.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script>
+    $(function(){
+      $("#menubtn").click(function(){
+        $("#menu").slideToggle();
+      });
+    });
+    </script>
+
+  </head>
+
+  <body>
+    <div class="boxA">
+      <div class="boxA-inner">
+    <div class="box1">
+      <div class="site">
+      <h1><a href="#">PISACHI</a></h1>
+    </div>
+    </div>
+    <div class="box2">
+      <button type="button" id="menubtn">
+        <i class="fa fa-bars"></i><span>MENU</span>
+        </button>
+      <nav class="menu" id="menu">
+        <ul>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">ARTIST</a></li>
+          <li><a href="#">ARTWORK</a></li>
+          <li><a href="#">GOODS</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  </div>
+    <div class="box3">
+      <img src="header.jpg" alt=""class= "topimg">
+    </div>
+    <div class="box4">
+      <nav class="news">
+        <h1>예술소식</h1>
+        <ul>
+          <li><a href="#">
+            <time datetime="2020-12-01">12/01</time>
+            <div class="text">바스키아 작품은 얼마일까요?</div>
+          </a></li>
+          <li><a href="#">
+            <time datetime="2020-11-15">11/15</time>
+            <div class="text">KAWS는 어떻게 유명해졌는가?</div>
+          </a></li>
+          <li><a href="#">
+            <time datetime="2020-11-10">11/10</time>
+            <div class="text">그림을 잘 그릴면 어떻게 해야할까?</div>
+          </a></li>
+          <li><a href="#">
+            <time datetime="2020-11-10">11/10</time>
+            <div class="text">요즘 핫한 청년 작가는?</div>
+          </a></li>
+        </ul>
+    </div>
+    <div class="box5">
+      <div class="box5-inner">
+      <div class="copyright">
+      <p>Copyright & copy; PiusSong Magazine</p>
+      </div>
+    </div>
+    </div>
+
+
+  </body>
+</html>
