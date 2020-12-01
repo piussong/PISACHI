@@ -24,23 +24,29 @@ body	{margin: 0;
 
 /* 개요 */
 .summary a	{display: block;
-	background-color: #222222;
-	color: #ffffff;
+	background-color: #ffffff;
+	color: #000000;
+	border-bottom: solid 1px;
+	border-top: solid 1px;
 	text-align: center;
 	text-decoration: none}
 
-.summary a:hover	{opacity: 0.8}
+.summary a:hover	{background-color: #dddddd}
+
+.summary img {max-width: 100%;
+	height: auto;
+	vertical-align: bottom;}
 
 .summary i	{display: block;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	font-size: 38px}
 
-.summary .fa-life-bouy	{background-color: lightpink}
+.summary .fa-life-bouy	{background-color: #ffffff}
 
-.summary .fa-book	{background-color: skyblue}
+.summary .fa-book	{background-color: #ffffff}
 
-.summary .fa-home	{background-color: lightgreen}
+.summary .fa-home	{background-color: #ffffff}
 
 .summary h1	{margin-top: 0;
 	margin-bottom: 0;
@@ -51,9 +57,8 @@ body	{margin: 0;
 
 .summary p	{margin-top: 0;
 	margin-bottom: 0;
-	padding-top: 15px;
+	padding-top: 5px;
 	padding-bottom: 15px;
-	background-color: gray;
 	font-size: 12px}
 
 
@@ -106,7 +111,7 @@ body	{margin: 0;
 
 
 /* 박스의 왼쪽 오른쪽 */
-.boxA, .box4, .box5, .box6
+.boxA, .box4, .box5
 	{padding-left: 15px;
 	padding-right: 15px}
 
