@@ -5,6 +5,9 @@
 [class^="box"],
 div:not([class])
 	{
+	border: solid 1px #faa;
+	color: #faa;
+	background-color: #fee;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -26,4 +29,26 @@ body > div:not([class]) {min-height: 200px}
 	font-family: '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
 	font-weight: normal;
 	text-align: left;
+	}
+
+
+[class^="box"] > [class^="box"],
+div:not([class]) > div:not([class])
+	{
+	border-color: #e0e03d;
+	color: #e0e03d;
+	background-color: #ffe;
+	}
+
+
+[class^="box"] > [class^="box"] > [class^="box"]	{
+	border-color: #aaf;
+	color: #aaf;
+	background-color: #eef;
+	}
+
+[class^="box"] > [class^="box"] > [class^="box"] > [class^="box"]	{
+	border-color: #afa;
+	color: #afa;
+	background-color: #efe;
 	}

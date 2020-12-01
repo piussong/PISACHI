@@ -10,6 +10,7 @@ body	{margin: 0;
 	text-decoration: none}
 
 .site h1	{margin: 0;
+	text-align: center;
 	font-size: 30px}
 
 .site img	{border: none}
@@ -19,20 +20,6 @@ body	{margin: 0;
 .topimg	{max-width: 100%;
 	height: auto;
 	vertical-align: bottom}
-
-/* 개요 문장 */
-.catch	{margin: 0;
-	padding: 15px;
-	background-color: rgba(255,255,255,0.7);
-	font-size: 28px}
-
-/* 헤더 그림에 개요 문장을 중첩 */
-.top	{position: relative}
-
-.catch	{position: absolute;
-	bottom: 7%;
-	left: 3%}
-
 
 
 /* 개요 */
@@ -49,11 +36,11 @@ body	{margin: 0;
 	padding-bottom: 40px;
 	font-size: 38px}
 
-.summary .fa-database	{background-color: #bfbd13}
+.summary .fa-life-bouy	{background-color: lightpink}
 
-.summary .fa-bar-chart-o	{background-color: #c58839}
+.summary .fa-book	{background-color: skyblue}
 
-.summary .fa-envelope	{background-color: #859f46}
+.summary .fa-home	{background-color: lightgreen}
 
 .summary h1	{margin-top: 0;
 	margin-bottom: 0;
@@ -66,7 +53,7 @@ body	{margin: 0;
 	margin-bottom: 0;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	background-color: #524e3c;
+	background-color: gray;
 	font-size: 12px}
 
 
@@ -105,59 +92,6 @@ body	{margin: 0;
 .news .text	{float: none;
 	width: auto;
 	margin-left: 60px}
-
-
-/* SNS 메뉴 */
-.follow ul	{margin: 0;
-	padding: 0;
-	list-style: none}
-
-.follow li a	{display: block;
-	margin-bottom: 10px;
-	padding: 10px;
-	border-radius: 4px;
-	color: #ffffff;
-	font-size: 14px;
-	text-decoration: none}
-
-.follow li a:hover	{opacity: 0.8}
-
-.follow-tw	{background-color: #63bafb}
-.follow-fb	{background-color: #5288f7}
-.follow-gp	{background-color: #f65d4a}
-
-.follow i	{margin-right: 10px;
-	font-size: 24px;
-	vertical-align: middle}
-
-
-/* 추가 설명 */
-.follow-info	{margin-top: 0;
-	margin-bottom: 20px;
-	padding: 10px;
-	background-color: #dddddd;
-	font-size: 14px;
-	text-align: center}
-
-.follow-info {
-	position: relative;
-	background: #dddddd;
-}
-.follow-info:after {
-	top: 100%;
-	left: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-color: rgba(221, 221, 221, 0);
-	border-top-color: #dddddd;
-	border-width: 15px;
-	margin-left: -15px;
-}
-
 
 /* 저작권 */
 .copyright p	{margin: 0;
@@ -208,11 +142,6 @@ body	{margin: 0;
 /* 내비게이션 */
 .menu li a	{padding: 10px 7px;
 	font-size: 11px}
-
-/* 개요 문장 */
-.catch	{padding: 5px 10px;
-	font-size: 12px}
-
 }
 
 
@@ -291,7 +220,7 @@ body	{margin: 0;
 	display: block;
 	clear: both}
 
-.box1	{float: left;
+.box1	{float: center;
 	width: auto}
 
 .box2	{float: right;

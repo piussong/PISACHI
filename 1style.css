@@ -11,16 +11,59 @@ body	{margin: 0;
 	text-decoration: none;}
 
 .site h1	{margin: 0;
+
   text-align: center;
 	font-size: 30px}
 
 .site img {border: none}
 
 
+
 /* 헤더 그림 */
 .topimg	{max-width: 100%;
 	height: auto;
 	vertical-align: bottom}
+
+/* 개요 */
+.summary a	{display: block;
+	background-color: #222222;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none}
+
+.summary a:hover	{opacity: 0.8}
+
+.summary i	{display: block;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 38px}
+
+.summary .fa-life-bouy	{background-color: skyblue}
+
+.summary .fa-book	{background-color: lightpink}
+
+.summary .fa-home	{background-color: lightgreen}
+
+.summary img	{max-width: 100%;
+	height: 300px;
+	border: none;
+	margin-bottom: 15px;
+	vertical-align: bottom}
+
+.summary h1 {margin-top:0;
+	margin-bottom: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	font-weight:normal}
+
+.summary p {margin-top:0;
+	margin-bottom: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: gray;
+	font-size: 12px}
+
 
 
 /* 공지사항 */
@@ -72,7 +115,7 @@ body	{margin: 0;
 	background-color: #dddddd}
 
 /* 박스의 왼쪽 오른쪽 */
-.boxA, .box4, .box5
+.boxA, .box4, .box5, .box6
 	{padding-left: 15px;
 	padding-right: 15px}
 
@@ -82,6 +125,12 @@ body	{margin: 0;
 
 .box4	{padding-top: 20px;
 	padding-bottom: 20px}
+
+.box6 {padding-top: 20px;
+	padding-bottom: 20px}
+
+.box6-1, .box6-2, .box6-3
+	{padding-bottom: 10px}
 
 /* ########### 359px 이하 ########### */
 @media (max-width: 359px) {
@@ -103,7 +152,7 @@ body	{margin: 0;
 	}
 
 	/* ########### 767px 이하 ########### */
-@media (max-width: 767px) {
+@media (max-width: 787px) {
 
 /* 토글 버튼 */
 
@@ -147,7 +196,7 @@ body	{margin: 0;
 
 
 /* ########### 768px 이상 ########### */
-@media (min-width: 768px) {
+@media (min-width: 788px) {
 
 /* 토글 버튼 */
 #menubtn	{display: none}
@@ -162,7 +211,7 @@ body	{margin: 0;
 .menu li a	{display: block;
 	padding: 10px 15px;
 	color: #000000;
-	font-size: 20px;
+	font-size: 14px;
 	text-decoration: none}
 
 .menu li a:hover	{background-color: #eeeeee}
@@ -182,8 +231,26 @@ body	{margin: 0;
 .box1	{float: center;
 	width: auto}
 
-.box2	{float: center;
+.box2	{float: right;
 	width: auto}
+
+}
+
+/* BOX6-1, BOX6-2, BOX6-3을 가로 정렬하는 설정 */
+.box6:after	{content: "";
+	display: block;
+	clear: both}
+
+.box6-1	{float: left;
+	width: 32%;
+	margin-right: 2%}
+
+.box6-2	{float: left;
+	width: 32%;
+	margin-right: 2%}
+
+.box6-3	{float: left;
+	width: 32%}
 
 }
 
@@ -192,7 +259,7 @@ body	{margin: 0;
 @media (min-width: 1190px) {
 
 /* 전체 너비를 고정 */
-.box3, .box4, .boxA-inner, .box5-inner
+.box3, .box4, .boxA-inner, .box5-inner, .box6
 	{width: 1140px;
 	margin-left: auto;
 	margin-right: auto}
